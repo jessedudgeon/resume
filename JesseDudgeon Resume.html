@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--TO DO
+        Volunteering
+        Projects    
+    -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesse Dudgeon Resume</title>
+    <script src="https://kit.fontawesome.com/3842d44a07.js" crossorigin="anonymous"></script>
+    <style>
+        @media print {
+            .page { 
+                margin-left: 0.5in;
+                margin-right: 0.5in;
+                margin-top: 0;
+                margin-bottom: 0;
+                page-break-after: always;
+                position: relative;
+                width: 8.5in;
+                height: 11in;
+            }
+        }
+        .hide {
+            display: block;
+            display: none;
+        }
+        @media screen {
+            .page {
+                page-break-after: always;
+                position: relative;
+                width: 8.5in;
+                height: 11in;
+                left: 50%          
+            }
+        }
+            h3 {
+                width: 100%; 
+                text-align: center; 
+                border-bottom: 1px solid #000; 
+                line-height: 0.1em;
+                margin: 10px 0 20px; 
+            } 
+
+        h3 span { 
+            background:rgb(255, 255, 255); 
+            padding:0 10px; 
+        }
+        h1{
+            margin-bottom: 1px;
+        }
+        ul{
+            columns: 2;
+        }
+        .page-content {
+            position: absolute;
+            width: 8.125in;
+            height: 10.625in;
+            left: 0.1875in;
+            top: 0.1875in;
+            background-color: rgba(255,255,255);
+        }
+        .dates{
+            flex: 1;
+            text-align: right;
+            font-weight: bold;
+        }
+        .contact{
+            left: 50%;
+            text-align: center;
+        }
+        body{
+            font-family: Calibri;
+            font-style: normal;
+            color: black;
+            width: 8.5in;
+            height: 11in;
+        }
+        address{
+            font-style: normal;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        .flex-container{
+            display: flex;
+        }
+        .profile{
+            padding-left: 5px;
+        }
+        .company-name {
+            flex: 1;
+            padding-bottom: 3px;
+            font-weight: bold;
+        }
+        .company-location {
+            flex: 1;
+            font-weight: bold;
+            text-align: right;
+        }
+        .position {
+            flex: 1;
+            font-weight: bold;
+            text-align: left;
+            padding-left: 5px;
+        }
+        .degree {
+            flex: 1;
+            font-weight: bold;
+            text-align: left;
+        }
+        .school {
+            flex: 1;
+            text-align: center;
+        }
+        .skill-section {
+            flex: 1;
+        }
+        .skill-type {
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="page-content">
+            <section class="contact">
+                
+                <h1>
+                    <a href="https://www.jessedudgeon.com" target="_blank">
+                        Jesse Dudgeon
+                    </a>
+                </h1>
+                <address>
+                    <a href="https://www.google.com/maps/place/705+Lehman+St,+Berne,+IN+46711/@40.6516104,-84.9543343,17z/data=!3m1!4b1!4m5!3m4!1s0x8815879b61153931:0x6708b19fd26775f5!8m2!3d40.6516064!4d-84.9521456" target="_blank">
+                        <i class="fa-solid fa-map-location-dot"></i> 705 Lehman Street, Berne, IN 46711
+                    </a>
+                </address>
+                <div>
+                    <a href="mailto:jessedudgeon@gmail.com"><i class="fa-solid fa-envelope"></i> JesseDudgeon@gmail.com</a> 
+                    &#183; 
+                    <a href="tel:+12602733613"><i class="fa-solid fa-phone fa-shake"></i> (260) 273-3613</a>
+                </div>
+            </section>
+            <br>
+
+            <!--Education-->
+
+            <section>
+                <h3><span>Education</span></h3>
+                <section class="flex-container">
+                    <div class="degree">
+                        <i class="fa-solid fa-graduation-cap"></i> BA Information Systems
+                    </div>
+                    <div class="school">
+                        Indiana Tech
+                    </div>
+                    <div class="dates">
+                        May 2013
+                    </div>
+                </section>
+                <section class="flex-container">
+                    <div class="degree">
+                        <i class="fa-solid fa-graduation-cap"></i> Global Leadership Annual Summit
+                    </div>
+                    <div class="school">
+                        Global Leadership Network
+                    </div>
+                    <div class="dates">
+                        2015 - 2021
+                    </div>
+                </section>
+                <section class="flex-container">
+                    <div class="degree">
+                        <i class="fa-solid fa-graduation-cap"></i> Daring Leaders Certification
+                    </div>
+                    <div class="school">
+                        Sabrina Moon
+                    </div>
+                    <div class="dates">
+                        2022
+                    </div>
+                </section>
+            </section>
+            <section class="flex-container">
+                <div class="degree">
+                    <i class="fa-solid fa-graduation-cap"></i> Programming/Technical Courses
+                </div>
+                <div class="school">
+                    Udemy
+                </div>
+                <div class="dates">
+                    Ongoing
+                </div>
+            </section>
+        </section>
+            <br>
+            <!--Work Experience-->
+            <section>
+                <h3><span>Work Experience</span></h3>
+                <section class="flex-container bold">
+                    <div class="company-name">
+                        <i class="fa-solid fa-building"></i> SCAN, Inc (Stop Child Abuse & Neglect)
+                    </div>
+                    <div class="company-location">
+                        Fort Wayne, IN
+                    </div>
+                </section>
+                <section class="flex-container">
+                    <div class="position">
+                        IT & Facilities Director
+                    </div>
+                    <div class="dates">
+                        July 2013 - Present
+                    </div>
+                </section>
+                <div class="profile">
+                    Responsible for all IT and Facilities operations, including finding, op
+                </div>
+                <div>
+                    <ul>
+                        <li>Microsoft Azure cloud administration</li>
+                        <li>Experience with cloud computing and virtualization</li>
+                        <li>Strong endpoint device support experience (Windows, Mac OS, iOS, Android)</li>
+                        <li>Automation of various tasks using Power Automate</li>
+                        <li>Decreased OpEx/CapEx company wide through systems design/implementation, internal tool development and process flow enhancements</li>
+                        <li>Technology strategic planning and roadmap development</li>
+                        <li>Chair and serve on SCAN committees</li>
+                        <li>Administrator Azure AD users, groups, and devices, and participate in migration between on-premises and Azure AD through AD connect</li>
+                        <li>Planning and execution of migration from on premise to cloud infrastructure</li>
+                        <li>Responsible for opening of new office locations</li>
+                        <li>Installation and setup of operating systems on endpoint devices and VM/Server infrastructure systems</li>
+                        <li>Supervision and development of staff</li>
+                        <li>Configuration/Deployment/Administration of Microsoft 365 and office 365, including Teams, SharePoint Online, OneDrive, and Exchange Online</li>
+                    </ul>
+                </div>
+                <section class="flex-container">
+                    <div class="position">
+                        IT Manager
+                    </div>
+                    <div class="dates">
+                        July 2013 - Present
+                    </div>
+                </section>
+                <div class="profile">
+                    Responsible for all company IT functions, including networks, systems, websites, service desk and leadership.
+                </div>
+                <div>
+                    <ul>
+                        <li>Established IT policies and procedures</li>
+                        <li>Developed and deployed a case management system using C#, ASP.NET and MS SQL</li>
+                        <li>Developed and deployed a multipurpose management system to track staff trainings, volunteer hours, and required fund raising sales using Laravel, PHP, MySQL</li>
+                        <li>Created a user managed mass SMS system for quick versitile communications using Twilios API on a laravel framework</li>
+                        <li>Deployed password manager applications to solve a major security threat</li>
+                        <li>Implemented a self service HR system saving $55k annually</li>
+                        <li>Implemented new on premised Digital/VoIP phone system</li>
+                    </ul>
+                </div>
+                <section class="flex-container">
+                    <div class="position">
+                        Network and Systems Manager
+                    </div>
+                    <div class="dates">
+                        July 2013 - Present
+                    </div>
+                </section>
+                <div class="profile">
+                    Responsible for the administration of systems and network
+                </div>
+                <section>
+                    <div>
+                        <ul>
+                            <li>Migration from on premise exchange to Exchange Online</li>
+                            <li>Setup and Deployed firewalls to all offices</li>
+                            <li>Strong endpoint device support experience (Windows, Mac OS, iOS, Android)</li>
+                            <li>Setup site to site and client to site VPN</li>
+                            <li>Migrated from physical servers to virtual servers</li>
+                            <li>Established a service desk with ticket system</li>
+                            <li>Created disaster recovery plan</li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+            <section class="flex-container bold">
+                <div class="company-name">
+                    <i class="fa-solid fa-building"></i> FCC (Adams)
+                </div>
+                <div class="company-location">
+                    Berne, IN
+                </div>
+            </section>
+            <section class="flex-container">
+                <div class="position">
+                    Systems Administrator
+                </div>
+                <div class="dates">
+                    July 2010 - July 2013
+                </div>
+            </section>
+            <div class="profile">
+                Responsible for production servers, telephony system, cell phones, and service desk
+            </div>
+            <section>
+                <div>
+                    <ul>
+                        <li>Systems architect for all of North American facilities</li>
+                        <li>Provisioned and deployed endpoints to staff</li>
+                        <li>Developed and deployed an OEE tracking tool</li>
+                        <li>Developed and deployed multi-departmental budget tracking app</li>
+                        <li>Diagnose and repair of networking, telephony, server, machine equipment, and User PC equipment</li>
+                        <li>Setup and installed network, security, and communication systems</li>
+                        <li>Assisted in the selection process of internationally implemented ERP system</li>
+                        <li>Developed and maintained inventory management system for asset tracking</li>
+                        <li>Staff training on systems and equipment</li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+        <section class="hide">
+            <section class="flex-container">
+                <div class="company-name">
+                    <i class="fa-solid fa-building"></i> Air National Guard
+                </div>
+                <div class="company-location">
+                    Fort Wayne, IN
+                </div>
+            </section>
+            <section class="flex-container">
+                <div class="position">
+                    Aerospace Propulsion Specialist
+                </div>
+                <div class="dates">
+                    Aug 2005 - Aug 2011
+                </div>
+            </section>
+            <section class="">
+                <div>
+                    <ul>
+                        <li>Conducted and oversaw safety protocols, including flight line foreign object prevention walks</li>
+                        <li>Assisted with aircraft and equipment transport</li>
+                        <li>Maintained orderly and safe work environment by enforcing tool control and FOD awareness, prevention, and safety at all times</li>
+                        <li>Removed and installed aircraft subsystem assemblies such as engines, rotors, gearboxes, transmissions, and mechanical flight controls</li>
+                        <li>Documented all inspection and maintenance actions in aircraft forms, IMDS and FERMS</li>
+                        <li>Completed all documentation requirements for each task, including recording maintenance actions in aircraft logbooks</li>
+                        <li>Performed flight line functions including AFE preflight and post-flight requirements</li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+    </section>
+    <br>
+
+            <!--Skills-->
+            <h3><span>Skills</span></h3>
+            <section class="flex-container">
+                <div class="skill-section">
+                    <div class="skill-type">
+                        Languages/Frameworks
+                    </div>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>C#</li>
+                            <li>PHP</li>
+                            <li>ASP.NET</li>
+                            <li>VB.NET</li>
+                            <li>MS/MySQL</li>
+                            <li>Laravel</li>
+                            <li>Unity3d</li>
+                            <li>React</li>
+                            <li>Bootstrap</li>
+                            <li>Tailwind</li>
+                        </ul>
+                </div>
+                <div class="skill-section">
+                    <div class="skill-type">
+                        Software/Infastructure
+                    </div>
+                    <ul>
+                        <li>Active Directory</li>
+                        <li>Microsoft Server Administration Tools</li>
+                        <li>Microsoft Azure</li>
+                        <li>Group Policy</li>
+                        <li>Power Automate</li>
+                        <li>Microsoft Office</li>
+                        <li>GIT</li>
+                        <li>Firewall Configuration & Deployment</li>
+                        <li>LAN/WAN Configuration</li>
+                        <li>SharePoint Administration</li>
+                        <li>Microsoft Exchange</li>
+                        <li>DNS/DHCP</li>
+                    </ul>
+                </div>
+            </section>
+           
+        </div>
+    </div>
+    
+
+    
+</body>
+</html>
+
